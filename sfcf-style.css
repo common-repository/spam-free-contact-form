@@ -1,0 +1,54 @@
+/* Spam Free Contact Form Stylesheet */
+
+.success_left, .success_right, .error_left, .error_right {
+  width: 11px;
+  height: 34px;
+  float: left;
+}
+
+.success_center, .error_center {
+  height: 34px;
+  float: left;
+}
+
+.success_left {
+  background: url(images/success_left.png) no-repeat;
+}
+
+.success_right {
+  background: url(images/success_right.png) no-repeat;
+}
+
+.error_left {
+  background: url(images/error_left.png) no-repeat;
+}
+
+.error_right {
+  background: url(images/error_right.png) no-repeat;
+}
+
+.success_center {
+  background: url(images/success_center.png) repeat-x;
+  color: #606060;
+  text-align: center;
+  padding: 8px 10px 0 10px;
+}
+
+.error_center {
+  background: url(images/error_center.png) repeat-x;
+  color: #606060;
+  text-align: center;
+  padding: 8px 10px 0 10px;
+}
+
+#sfcfname, #sfcfemail, #sfcfsubject, #sfcfmessage {
+  padding: 5px;
+  margin: 5px 0 0 0;
+  border: 1px #808080 solid;
+}
+
+
+#messagebox {
+  margin: 10px 0 10px 0;
+}
+
